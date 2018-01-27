@@ -1,0 +1,58 @@
+{
+  "name": "lib-boilerplate",
+  "version": "0.0.0",
+  "description": "Some awesome description",
+  "main": "dist/mylib.js",
+  "author": {
+    "name": "Eduardo San Martin Morote",
+    "email": "posva13@gmail.com"
+  },
+  "scripts": {
+    "lint": "eslint --color --ext=js,html src test",
+    "unit": "jest",
+    "dev": "npm run unit -- --watchAll",
+    "test": "npm run lint && npm run unit",
+    "prepublishOnly": "rollit"
+  },
+  "files": [
+    "src",
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "babel-jest": "^22.1.0",
+    "babel-preset-env": "^1.6.1",
+    "codecov": "^3.0.0",
+    "eslint": "^4.16.0",
+    "eslint-config-posva": "^1.3.2",
+    "jest": "^22.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/posva/mylib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/posva/mylib/issues"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "vue"
+    ],
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/babel-jest",
+      ".*\\.(vue)$": "<rootDir>/node_modules/vue-jest"
+    },
+    "coveragePathIgnorePatterns": [
+      "<rootDir>/test/*.js",
+      "<rootDir>/test/.*.js",
+      "<rootDir>/test/*/*.js"
+    ]
+  },
+  "homepage": "https://github.com/posva/mylib#readme"
+}
