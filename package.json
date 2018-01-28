@@ -1,5 +1,5 @@
 {
-  "name": "lib-boilerplate",
+  "name": "mylib",
   "version": "0.0.0",
   "description": "Some awesome description",
   "main": "dist/mylib.js",
