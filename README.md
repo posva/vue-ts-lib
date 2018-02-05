@@ -4,6 +4,12 @@
 
 Demo (TODO link)
 
+## Installation
+
+```sh
+npm install mylib
+```
+
 ## Usage
 
 ## API
