@@ -1,4 +1,4 @@
-# mylib [![Build Status](https://badgen.net/circleci/github/posva/mylib)](https://circleci.com/gh/posva/mylib) [![npm package](https://badgen.net/npm/v/mylib)](https://www.npmjs.com/package/mylib) [![coverage](https://badgen.net/codecov/c/github/posva/mylib)](https://codecov.io/github/posva/mylib) [![thanks](https://badgen.net/badge/thanks/♥/pink)](https://github.com/posva/thanks)
+# lib-boilerplate [![Build Status](https://badgen.net/circleci/github/posva/lib-boilerplate)](https://circleci.com/gh/posva/lib-boilerplate) [![npm package](https://badgen.net/npm/v/lib-boilerplate)](https://www.npmjs.com/package/lib-boilerplate) [![coverage](https://badgen.net/codecov/c/github/posva/lib-boilerplate)](https://codecov.io/github/posva/lib-boilerplate) [![thanks](https://badgen.net/badge/thanks/♥/pink)](https://github.com/posva/thanks)
 
 > Some awesome description
 
@@ -7,7 +7,7 @@ Demo (TODO link)
 ## Installation
 
 ```sh
-npm install mylib
+npm install lib-boilerplate
 ```
 
 ## Usage

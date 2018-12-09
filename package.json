@@ -1,8 +1,8 @@
 {
-  "name": "mylib",
+  "name": "lib-boilerplate",
   "version": "0.0.0",
   "description": "Some awesome description",
-  "main": "dist/mylib.js",
+  "main": "dist/lib-boilerplate.js",
   "author": {
     "name": "Eduardo San Martin Morote",
     "email": "posva13@gmail.com"
@@ -17,6 +17,7 @@
   "files": [
     "src",
     "dist",
+    "types/*.d.ts",
     "LICENSE",
     "README.md"
   ],
@@ -34,10 +35,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/posva/mylib.git"
+    "url": "git+https://github.com/posva/lib-boilerplate.git"
   },
   "bugs": {
-    "url": "https://github.com/posva/mylib/issues"
+    "url": "https://github.com/posva/lib-boilerplate/issues"
   },
-  "homepage": "https://github.com/posva/mylib#readme"
+  "homepage": "https://github.com/posva/lib-boilerplate#readme"
 }
