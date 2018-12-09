@@ -9,6 +9,7 @@
   },
   "scripts": {
     "lint": "eslint --fix --color --ext=js,html src tests *.js",
+    "lint:fix": "npm run lint -- --fix",
     "unit": "jest",
     "dev": "npm run unit -- --watchAll",
     "test": "npm run lint && npm run unit",
