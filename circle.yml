@@ -30,8 +30,8 @@ jobs:
           key: dependencies-cache-{{ checksum "yarn.lock" }}
 
       # run tests!
-      - run: npm test
+      - run: yarn run test
 
       - run:
           name: Send code coverage
-          command: './node_modules/.bin/codecov'
+          command: yarn codecov
