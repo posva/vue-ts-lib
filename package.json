@@ -2,7 +2,12 @@
   "name": "lib-boilerplate",
   "version": "0.0.0",
   "description": "Some awesome description",
-  "main": "dist/lib-boilerplate.js",
+  "main": "dist/lib-boilerplate.common.js",
+  "module": "dist/lib-boilerplate.esm.js",
+  "unpkg": "dist/lib-boilerplate.js",
+  "browser": "dist/lib-boilerplate.esm.js",
+  "types": "dist/lib-boilerplate/src",
+  "sideEffects": false,
   "author": {
     "name": "Eduardo San Martin Morote",
     "email": "posva13@gmail.com"
@@ -13,7 +18,8 @@
     "unit": "jest",
     "dev": "npm run unit -- --watchAll",
     "test": "npm run lint && npm run unit",
-    "prepublishOnly": "rollit"
+    "build": "rollup -c rollup.config.js",
+    "prepublishOnly": "yarn run build"
   },
   "files": [
     "src",
@@ -25,13 +31,16 @@
   "keywords": [],
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.2.0",
-    "@babel/preset-env": "^7.2.0",
-    "babel-jest": "^24.8.0",
-    "codecov": "^3.1.0",
-    "eslint": "^6.0.1",
-    "eslint-config-posva": "^3.0.1",
-    "jest": "^24.8.0"
+    "pascalcase": "^1.0.0",
+    "rimraf": "^3.0.0",
+    "rollup": "^1.21.4",
+    "rollup-plugin-alias": "^2.0.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-terser": "^5.1.2",
+    "rollup-plugin-typescript2": "^0.24.2",
+    "typescript": "^3.6.3"
   },
   "repository": {
     "type": "git",
