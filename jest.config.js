@@ -1,18 +1,14 @@
 module.exports = {
+  preset: 'ts-jest',
   collectCoverage: true,
-  collectCoverageFrom: ['<rootDir>/src/*.js'],
-  moduleFileExtensions: ['js', 'jsx', 'json', 'vue'],
-  transform: {
-    '^.+\\.jsx?$': 'babel-jest',
-    // ".*\\.(vue)$": "vue-jest",
+  collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
+  testMatch: ['<rootDir>/__tests__/**/*.spec.ts'],
+  globals: {
+    'ts-jest': {
+      diagnostics: {
+        warnOnly: true,
+      },
+    },
   },
-  moduleNameMapper: {
-    '^@/(.*)$': '<rootDir>/src/$1',
-  },
-  coveragePathIgnorePatterns: [
-    '<rootDir>/test/*.js',
-    '<rootDir>/test/.*.js',
-    '<rootDir>/test/*/*.js',
-  ],
   testURL: 'http://localhost/',
 }

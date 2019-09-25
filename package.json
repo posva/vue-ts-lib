@@ -13,18 +13,17 @@
     "email": "posva13@gmail.com"
   },
   "scripts": {
-    "lint": "eslint --fix --color --ext=js,html,vue,ts src __tests__ *.js",
-    "lint:fix": "npm run lint -- --fix",
+    "lint": "eslint --color --ext=js,html,vue,ts src __tests__ *.js",
+    "lint:fix": "yarn run lint -- --fix",
     "unit": "jest",
-    "dev": "npm run unit -- --watchAll",
-    "test": "npm run lint && npm run unit",
+    "dev": "yarn run unit -- --watchAll",
+    "pretest": "yarn run lint",
+    "test": "yarn run unit",
     "build": "rollup -c rollup.config.js",
     "prepublishOnly": "yarn run build"
   },
   "files": [
-    "src",
     "dist",
-    "types/*.d.ts",
     "LICENSE",
     "README.md"
   ],
@@ -38,6 +37,7 @@
     "eslint": "^6.4.0",
     "eslint-config-prettier": "^6.3.0",
     "eslint-plugin-prettier": "^3.1.1",
+    "jest": "^24.9.0",
     "pascalcase": "^1.0.0",
     "prettier": "^1.18.2",
     "rimraf": "^3.0.0",
@@ -48,6 +48,7 @@
     "rollup-plugin-replace": "^2.2.0",
     "rollup-plugin-terser": "^5.1.2",
     "rollup-plugin-typescript2": "^0.24.2",
+    "ts-jest": "^24.1.0",
     "typescript": "^3.6.3"
   },
   "repository": {
