@@ -13,7 +13,7 @@
     "email": "posva13@gmail.com"
   },
   "scripts": {
-    "lint": "eslint --fix --color --ext=js,html src tests *.js",
+    "lint": "eslint --fix --color --ext=js,html,vue,ts src __tests__ *.js",
     "lint:fix": "npm run lint -- --fix",
     "unit": "jest",
     "dev": "npm run unit -- --watchAll",
@@ -31,7 +31,15 @@
   "keywords": [],
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@typescript-eslint/eslint-plugin": "^2.3.1",
+    "@typescript-eslint/parser": "^2.3.1",
+    "codecov": "^3.6.1",
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.1",
     "pascalcase": "^1.0.0",
+    "prettier": "^1.18.2",
     "rimraf": "^3.0.0",
     "rollup": "^1.21.4",
     "rollup-plugin-alias": "^2.0.0",

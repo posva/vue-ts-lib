@@ -1,3 +1,3 @@
-export function mylib () {
+export function mylib() {
   return true
 }

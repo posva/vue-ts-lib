@@ -1,8 +1,6 @@
 module.exports = {
   collectCoverage: true,
-  collectCoverageFrom: [
-    '<rootDir>/src/*.js',
-  ],
+  collectCoverageFrom: ['<rootDir>/src/*.js'],
   moduleFileExtensions: ['js', 'jsx', 'json', 'vue'],
   transform: {
     '^.+\\.jsx?$': 'babel-jest',
