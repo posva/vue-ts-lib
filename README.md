@@ -1,4 +1,4 @@
-# lib-boilerplate [![Build Status](https://badgen.net/circleci/github/posva/lib-boilerplate/master)](https://circleci.com/gh/posva/lib-boilerplate) [![npm package](https://badgen.net/npm/v/lib-boilerplate)](https://www.npmjs.com/package/lib-boilerplate) [![coverage](https://badgen.net/codecov/c/github/posva/lib-boilerplate/master)](https://codecov.io/github/posva/lib-boilerplate) [![thanks](https://badgen.net/badge/thanks/♥/pink)](https://github.com/posva/thanks)
+# lib-boilerplate-ts [![Build Status](https://badgen.net/circleci/github/posva/lib-boilerplate-ts/master)](https://circleci.com/gh/posva/lib-boilerplate-ts) [![npm package](https://badgen.net/npm/v/lib-boilerplate-ts)](https://www.npmjs.com/package/lib-boilerplate-ts) [![coverage](https://badgen.net/codecov/c/github/posva/lib-boilerplate-ts/master)](https://codecov.io/github/posva/lib-boilerplate-ts) [![thanks](https://badgen.net/badge/thanks/♥/pink)](https://github.com/posva/thanks)
 
 > Some awesome description
 
