@@ -14,11 +14,11 @@
   },
   "scripts": {
     "lint": "eslint --color --ext=js,html,vue,ts src __tests__ *.js",
-    "lint:fix": "yarn run lint -- --fix",
+    "lint:fix": "yarn run lint --fix",
     "unit": "jest",
-    "dev": "yarn run unit -- --watchAll",
+    "dev": "yarn run unit --watchAll",
     "pretest": "yarn run lint",
-    "test": "yarn run unit",
+    "test": "yarn run unit && yarn run build",
     "build": "rollup -c rollup.config.js",
     "prepublishOnly": "yarn run build"
   },
