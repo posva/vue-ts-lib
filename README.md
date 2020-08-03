@@ -4,6 +4,16 @@
 
 Demo (TODO link)
 
+## Copying this project
+
+Using [degit](https://github.com/Rich-Harris/degit):
+
+```sh
+degit posva/vue-lib-boilerplate
+```
+
+(Remove this section after creating your own lib)
+
 ## Installation
 
 ```sh
@@ -19,3 +29,9 @@ npm install lib-boilerplate
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
+
+<div align="right">
+<sub><em>
+This project was created using the <a href="https://github.com/posva/vue-lib-boilerplate" rel="nofollow">Vue Library boilerplate</a> by (<a href="https://github.com/posva" rel="nofollow">posva</a>)
+</em></sub>
+</div>
