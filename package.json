@@ -1,13 +1,13 @@
 {
-  "name": "lib-boilerplate-ts",
+  "name": "vue-lib",
   "version": "0.0.0",
   "description": "Some awesome description",
-  "main": "dist/vue-lib-boilerplate.cjs.js",
-  "browser": "dist/vue-lib-boilerplate.esm.js",
-  "unpkg": "dist/vue-lib-boilerplate.global.js",
-  "jsdelivr": "dist/vue-lib-boilerplate.global.js",
-  "module": "dist/vue-lib-boilerplate.esm-bundler.js",
-  "types": "dist/vue-lib-boilerplate.d.ts",
+  "main": "dist/vue-lib.cjs.js",
+  "browser": "dist/vue-lib.esm.js",
+  "unpkg": "dist/vue-lib.global.js",
+  "jsdelivr": "dist/vue-lib.global.js",
+  "module": "dist/vue-lib.esm-bundler.js",
+  "types": "dist/vue-lib.d.ts",
   "sideEffects": false,
   "author": {
     "name": "Eduardo San Martin Morote",
@@ -27,7 +27,7 @@
   },
   "files": [
     "dist/*.js",
-    "dist/vue-lib-boilerplate.d.ts",
+    "dist/vue-lib.d.ts",
     "LICENSE",
     "README.md"
   ],
@@ -81,10 +81,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/posva/lib-boilerplate-ts.git"
+    "url": "git+https://github.com/posva/vue-lib.git"
   },
   "bugs": {
-    "url": "https://github.com/posva/lib-boilerplate-ts/issues"
+    "url": "https://github.com/posva/vue-lib/issues"
   },
-  "homepage": "https://github.com/posva/lib-boilerplate-ts#readme"
+  "homepage": "https://github.com/posva/vue-lib#readme"
 }

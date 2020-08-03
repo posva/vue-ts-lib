@@ -1,4 +1,4 @@
-# lib-boilerplate-ts [![Build Status](https://badgen.net/circleci/github/posva/lib-boilerplate-ts/master)](https://circleci.com/gh/posva/lib-boilerplate-ts) [![npm package](https://badgen.net/npm/v/lib-boilerplate-ts)](https://www.npmjs.com/package/lib-boilerplate-ts) [![coverage](https://badgen.net/codecov/c/github/posva/lib-boilerplate-ts/master)](https://codecov.io/github/posva/lib-boilerplate-ts) [![thanks](https://badgen.net/badge/thanks/♥/pink)](https://github.com/posva/thanks)
+# vue-lib [![Build Status](https://badgen.net/circleci/github/posva/vue-lib/master)](https://circleci.com/gh/posva/vue-lib) [![npm package](https://badgen.net/npm/v/vue-lib)](https://www.npmjs.com/package/vue-lib) [![coverage](https://badgen.net/codecov/c/github/posva/vue-lib/master)](https://codecov.io/github/posva/vue-lib) [![thanks](https://badgen.net/badge/thanks/♥/pink)](https://github.com/posva/thanks)
 
 > Some awesome description
 
@@ -19,7 +19,7 @@ degit posva/vue-lib-boilerplate
 #### Rename the project
 
 ```sh
-sed -i '' 's/vue-lib-boilerplates/vue-lib/g' README.md package.json`
+sed -i '' 's/vue-lib/vue-global-events/g' README.md package.json .github/workflows/release-tag.yml`
 ```
 
 #### Circle CI
@@ -42,7 +42,9 @@ sed -i '' 's/vue-lib-boilerplates/vue-lib/g' README.md package.json`
 ## Installation
 
 ```sh
-npm install lib-boilerplate
+yarn add vue-lib
+# or
+npm install vue-lib
 ```
 
 ## Usage
@@ -57,6 +59,6 @@ npm install lib-boilerplate
 
 <div align="right">
 <sub><em>
-This project was created using the <a href="https://github.com/posva/vue-lib-boilerplate" rel="nofollow">Vue Library boilerplate</a> by (<a href="https://github.com/posva" rel="nofollow">posva</a>)
+This project was created using the <a href="https://github.com/posva/vue-lib-boilerplate" rel="nofollow">Vue Library boilerplate</a> by <a href="https://github.com/posva" rel="nofollow">posva</a>
 </em></sub>
 </div>
