@@ -37,7 +37,9 @@ sed -i '' 's/vue-lib/vue-global-events/g' README.md package.json .github/workflo
 
 - Activate Sponsor section
 
-(Remove this section after creating your own lib)
+## Remove this section
+
+Remove the section _Checklist_ before releasing.
 
 ## Installation
 
