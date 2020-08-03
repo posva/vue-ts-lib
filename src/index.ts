@@ -12,7 +12,7 @@ export interface ComponentProps {
   data: { title: string; summary: string }
 }
 
-const ComponentImpl = defineComponent({
+export const ComponentImpl = defineComponent({
   props: {
     custom: Boolean,
     data: {
