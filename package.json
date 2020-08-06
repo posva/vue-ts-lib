@@ -72,10 +72,7 @@
   },
   "size-limit": [
     {
-      "path": "size-checks/webRouter.js"
-    },
-    {
-      "path": "size-checks/webRouterAndVue.js"
+      "path": "size-checks/basic.js"
     }
   ],
   "peerDependencies": {
