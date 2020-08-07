@@ -19,7 +19,7 @@ degit posva/vue-lib-boilerplate
 #### Rename the project
 
 ```sh
-sed -i '' 's/vue-lib/vue-global-events/g' README.md package.json .github/workflows/release-tag.yml`
+sed -i '' 's/vue-lib/vue-global-events/g' README.md package.json .github/workflows/release-tag.yml
 ```
 
 #### Circle CI
