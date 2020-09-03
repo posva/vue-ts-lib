@@ -61,6 +61,6 @@ npm install vue-lib
 
 <div align="right">
 <sub><em>
-This project was created using the <a href="https://github.com/posva/vue-lib-boilerplate" rel="nofollow">Vue Library boilerplate</a> by <a href="https://github.com/posva" rel="nofollow">posva</a>
+This project was created using the <a href="https://github.com/posva/vue-ts-lib-boilerplate" rel="nofollow">Vue Library boilerplate</a> by <a href="https://github.com/posva" rel="nofollow">posva</a>
 </em></sub>
 </div>
