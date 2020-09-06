@@ -11,7 +11,7 @@ You can directly create a project from this template by using the [Use this temp
 You can also use [degit](https://github.com/Rich-Harris/degit):
 
 ```sh
-degit posva/vue-lib-boilerplate
+degit posva/vue-ts-lib-boilerplate
 ```
 
 ### Checklist of things to do when creating a lib
@@ -30,8 +30,8 @@ sed -i '' 's/vue-lib/vue-global-events/g' README.md package.json .github/workflo
 
 ## Dependabot
 
-- Activate it: https://dependabot.com/
-- Limit checks to per week
+- Activate it: https://docs.github.com/en/github/administering-a-repository/enabling-and-disabling-version-updates
+- Or use dependabot.com
 
 ## Github Settings
 
