@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "description": "Some awesome description",
   "main": "dist/vue-lib.cjs.js",
-  "browser": "dist/vue-lib.esm-browser.js",
   "unpkg": "dist/vue-lib.global.js",
   "jsdelivr": "dist/vue-lib.global.js",
   "module": "dist/vue-lib.esm-bundler.js",
