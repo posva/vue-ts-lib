@@ -6,7 +6,7 @@ Demo (TODO link)
 
 ## Copying this project
 
-You can directly create a project from this template by using the [Use this template button](https://github.com/posva/vue-lib-boilerplate/generate) if you plan on hosting it on GitHub.
+You can directly create a project from this template by using the [Use this template button](https://github.com/posva/vue-ts-lib-boilerplate/generate) if you plan on hosting it on GitHub.
 
 You can also use [degit](https://github.com/Rich-Harris/degit):
 
