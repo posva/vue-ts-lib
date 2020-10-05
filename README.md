@@ -6,12 +6,12 @@ Demo (TODO link)
 
 ## Copying this project
 
-You can directly create a project from this template by using the [Use this template button](https://github.com/posva/vue-ts-lib-boilerplate/generate) if you plan on hosting it on GitHub.
+You can directly create a project from this template by using the [Use this template button](https://github.com/posva/vue-ts-lib/generate) if you plan on hosting it on GitHub.
 
 You can also use [degit](https://github.com/Rich-Harris/degit):
 
 ```sh
-degit posva/vue-ts-lib-boilerplate
+degit posva/vue-ts-lib
 ```
 
 ### Checklist of things to do when creating a lib
@@ -61,6 +61,6 @@ npm install vue-lib
 
 <div align="right">
 <sub><em>
-This project was created using the <a href="https://github.com/posva/vue-ts-lib-boilerplate" rel="nofollow">Vue Library boilerplate</a> by <a href="https://github.com/posva" rel="nofollow">posva</a>
+This project was created using the <a href="https://github.com/posva/vue-ts-lib" rel="nofollow">Vue Library template</a> by <a href="https://github.com/posva" rel="nofollow">posva</a>
 </em></sub>
 </div>
