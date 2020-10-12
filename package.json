@@ -42,7 +42,7 @@
     "@types/jest": "^26.0.8",
     "@types/jsdom": "^16.2.3",
     "@vue/test-utils": "^2.0.0-beta.6",
-    "codecov": "^3.7.2",
+    "codecov": "^3.8.0",
     "conventional-changelog-cli": "^2.0.34",
     "jest": "^26.2.2",
     "lint-staged": "^10.2.11",
