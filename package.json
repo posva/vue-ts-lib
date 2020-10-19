@@ -47,7 +47,7 @@
     "jest": "^26.5.3",
     "lint-staged": "^10.2.11",
     "pascalcase": "^1.0.0",
-    "prettier": "^2.0.5",
+    "prettier": "^2.1.2",
     "rollup": "^2.32.0",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.27.3",
