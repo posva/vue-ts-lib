@@ -30,7 +30,7 @@ sed -i '' 's/vue-lib/vue-global-events/g' README.md package.json .github/workflo
 
 ## Dependabot
 
-- Activate it: https://docs.github.com/en/github/administering-a-repository/enabling-and-disabling-version-updates
+- Activate it: https://docs.github.com/en/github/administering-a-repository/enabling-and-disabling-version-updates: add a `GH_TOKEN` secret in settings
 - Or use dependabot.com
 
 ## Github Settings
