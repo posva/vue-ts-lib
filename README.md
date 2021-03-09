@@ -1,4 +1,4 @@
-# vue-lib [![Build Status](https://badgen.net/circleci/github/posva/vue-lib/master)](https://circleci.com/gh/posva/vue-lib) [![npm package](https://badgen.net/npm/v/vue-lib)](https://www.npmjs.com/package/vue-lib) [![coverage](https://badgen.net/codecov/c/github/posva/vue-lib/master)](https://codecov.io/github/posva/vue-lib) [![thanks](https://badgen.net/badge/thanks/♥/pink)](https://github.com/posva/thanks)
+# vue-lib [![Build Status](https://badgen.net/circleci/github/posva/vue-lib/main)](https://circleci.com/gh/posva/vue-lib) [![npm package](https://badgen.net/npm/v/vue-lib)](https://www.npmjs.com/package/vue-lib) [![coverage](https://badgen.net/codecov/c/github/posva/vue-lib/main)](https://codecov.io/github/posva/vue-lib) [![thanks](https://badgen.net/badge/thanks/♥/pink)](https://github.com/posva/thanks)
 
 > Some awesome description
 
