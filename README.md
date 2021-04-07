@@ -1,4 +1,4 @@
-# vue-ts-lib [![Build Status](https://github.com/posva/vue-ts-lib/workflows/test/badge.svg)](https://github.com/posva/vue-ts-lib/actions/workflows/test.yml) [![npm package](https://badgen.net/npm/v/vue-ts-lib)](https://www.npmjs.com/package/vue-ts-lib) [![coverage](https://badgen.net/codecov/c/github/posva/vue-ts-lib/main)](https://codecov.io/github/posva/vue-ts-lib) [![thanks](https://badgen.net/badge/thanks/♥/pink)](https://github.com/posva/thanks)
+# vue-ts-lib [![Build Status](https://github.com/posva/vue-ts-lib/workflows/test/badge.svg)](https://github.com/posva/vue-ts-lib/actions/workflows/test.yml) [![npm package](https://badgen.net/npm/v/vue-ts-lib)](https://www.npmjs.com/package/vue-ts-lib) [![coverage](https://badgen.net/codecov/c/github/posva/vue-ts-lib/main)](https://codecov.io/github/posva/vue-ts-lib/branch/main) [![thanks](https://badgen.net/badge/thanks/♥/pink)](https://github.com/posva/thanks)
 
 > Some awesome description
 
