@@ -1,4 +1,4 @@
-# vue-lib [![Build Status](https://badgen.net/circleci/github/posva/vue-lib/main)](https://circleci.com/gh/posva/vue-lib) [![npm package](https://badgen.net/npm/v/vue-lib)](https://www.npmjs.com/package/vue-lib) [![coverage](https://badgen.net/codecov/c/github/posva/vue-lib/main)](https://codecov.io/github/posva/vue-lib) [![thanks](https://badgen.net/badge/thanks/♥/pink)](https://github.com/posva/thanks)
+# vue-ts-lib [![Build Status](https://github.com/posva/vue-ts-lib/workflows/test/badge.svg)](https://github.com/posva/vue-ts-lib/actions/workflows/test.yml) [![npm package](https://badgen.net/npm/v/vue-ts-lib)](https://www.npmjs.com/package/vue-ts-lib) [![coverage](https://badgen.net/codecov/c/github/posva/vue-ts-lib/main)](https://codecov.io/github/posva/vue-ts-lib) [![thanks](https://badgen.net/badge/thanks/♥/pink)](https://github.com/posva/thanks)
 
 > Some awesome description
 
@@ -19,23 +19,16 @@ degit posva/vue-ts-lib
 #### Rename the project
 
 ```sh
-sed -i '' 's/vue-lib/vue-global-events/g' README.md package.json .github/workflows/release-tag.yml size-checks/*
+sed -i '' 's/vue-ts-lib/vue-global-events/g' README.md package.json .github/workflows/release-tag.yml size-checks/*
 ```
 
-#### Circle CI
+#### Github CI
 
-- Add the project: https://circleci.com/projects/gh/posva
-- Check _Build on forked pull requests_: https://circleci.com/gh/posva/vue-lib/edit#advanced-settings
-- Check _Auto cancel redundant build_ (same place)
+- Added by default
 
-## Dependabot
+## Renovate
 
-- Activate it: https://docs.github.com/en/github/administering-a-repository/enabling-and-disabling-version-updates: add a `GH_TOKEN` secret in settings
-- Or use dependabot.com
-
-## Github Settings
-
-- Activate Sponsor section
+You must add the repository in [your settings](https://github.com/settings/installations/112211).
 
 ## Remove this section
 
@@ -44,9 +37,9 @@ Remove the section _Checklist_ before releasing.
 ## Installation
 
 ```sh
-yarn add vue-lib
+yarn add vue-ts-lib
 # or
-npm install vue-lib
+npm install vue-ts-lib
 ```
 
 ## Usage

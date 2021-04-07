@@ -1,1 +1,1 @@
-export * from '../dist/vue-lib.esm-bundler'
+export * from '../dist/vue-ts-lib.esm-bundler'
