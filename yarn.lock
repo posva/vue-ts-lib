@@ -505,24 +505,24 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@microsoft/api-extractor-model@7.13.16":
-  version "7.13.16"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor-model/-/api-extractor-model-7.13.16.tgz#1d67541ebbcea32672c5fdd9392dc1579b2fc23a"
-  integrity sha512-ttdxVXsTWL5dd26W1YNLe3LgDsE0EE273aZlcLe58W0opymBybCYU1Mn+OHQM8BuErrdvdN8LdpWAAbkiOEN/Q==
+"@microsoft/api-extractor-model@7.13.17":
+  version "7.13.17"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor-model/-/api-extractor-model-7.13.17.tgz#ea77c206984f62ee1d538ef2164e21c0e70a006e"
+  integrity sha512-XKP2NsUm2asriB6DshODfSRxYXwSBnA2VA51dVgxJnUE0OnBSZTc2rwzN6mDUJT72JGN081QG99eWA2SutOjIg==
   dependencies:
     "@microsoft/tsdoc" "0.13.2"
     "@microsoft/tsdoc-config" "~0.15.2"
-    "@rushstack/node-core-library" "3.43.2"
+    "@rushstack/node-core-library" "3.44.0"
 
-"@microsoft/api-extractor@7.18.19":
-  version "7.18.19"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor/-/api-extractor-7.18.19.tgz#f09afc1c210aa67e2f3f34b0a68281a12f144541"
-  integrity sha512-aY+/XR7PtQXtnqNPFRs3/+iVRlQJpo6uLTjO2g7PqmnMywl3GBU3bCgAlV/khZtAQbIs6Le57XxmSE6rOqbcfg==
+"@microsoft/api-extractor@7.18.20":
+  version "7.18.20"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor/-/api-extractor-7.18.20.tgz#ab65df94ed5bc6aab53612fc0a6a93cbdeef1610"
+  integrity sha512-JBstlWs5/MC1IiXSMAwOUnX1hV/IcCl75xF6OUhR2LB7ckZWcsKIbhLecjHC+TZRQsRqVGA3u+DJgB7BIWWYcA==
   dependencies:
-    "@microsoft/api-extractor-model" "7.13.16"
+    "@microsoft/api-extractor-model" "7.13.17"
     "@microsoft/tsdoc" "0.13.2"
     "@microsoft/tsdoc-config" "~0.15.2"
-    "@rushstack/node-core-library" "3.43.2"
+    "@rushstack/node-core-library" "3.44.0"
     "@rushstack/rig-package" "0.3.5"
     "@rushstack/ts-command-line" "4.10.4"
     colors "~1.2.1"
@@ -625,10 +625,10 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@rushstack/node-core-library@3.43.2":
-  version "3.43.2"
-  resolved "https://registry.yarnpkg.com/@rushstack/node-core-library/-/node-core-library-3.43.2.tgz#f067371a94fd92ed8f9d9aa8201c5e9e17a19f0f"
-  integrity sha512-b7AEhSf6CvZgvuDcWMFDeKx2mQSn9AVnMQVyxNxFeHCtLz3gJicqCOlw2GOXM8HKh6PInLdil/NVCDcstwSrIw==
+"@rushstack/node-core-library@3.44.0":
+  version "3.44.0"
+  resolved "https://registry.yarnpkg.com/@rushstack/node-core-library/-/node-core-library-3.44.0.tgz#481c30a5b5fbaf6eb06f95334b704fe6e1b35b44"
+  integrity sha512-J+w5efSJjitZoxgtBfU4al0FUx2VIcxpPFUxjIvk7Os2hlGV0VxXLUQWIWdiSL6OGxMSksDlHC9/SHcvBARuvg==
   dependencies:
     "@types/node" "12.20.24"
     colors "~1.2.1"
@@ -5157,10 +5157,10 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
-prettier@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.0.tgz#a6370e2d4594e093270419d9cc47f7670488f893"
-  integrity sha512-FM/zAKgWTxj40rH03VxzIPdXmj39SwSjwG0heUcNFwI+EMZJnY93yAiKXM3dObIKAM5TA88werc8T/EwhB45eg==
+prettier@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.1.tgz#fff75fa9d519c54cf0fce328c1017d94546bc56a"
+  integrity sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==
 
 pretty-format@^26.0.0, pretty-format@^26.6.2:
   version "26.6.2"
@@ -5438,10 +5438,10 @@ rollup-plugin-typescript2@^0.31.1:
     resolve "1.20.0"
     tslib "2.2.0"
 
-rollup@^2.60.1:
-  version "2.60.1"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.60.1.tgz#4b34cd247f09b421f10a3c9286eda2ecf9972079"
-  integrity sha512-akwfnpjY0rXEDSn1UTVfKXJhPsEBu+imi1gqBA1ZkHGydUnkV/fWCC90P7rDaLEW8KTwBcS1G3N4893Ndz+jwg==
+rollup@^2.60.2:
+  version "2.60.2"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.60.2.tgz#3f45ace36a9b10b4297181831ea0719922513463"
+  integrity sha512-1Bgjpq61sPjgoZzuiDSGvbI1tD91giZABgjCQBKM5aYLnzjq52GoDuWVwT/cm/MCxCMPU8gqQvkj8doQ5C8Oqw==
   optionalDependencies:
     fsevents "~2.3.2"
 
