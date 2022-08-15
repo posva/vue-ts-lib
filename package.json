@@ -33,7 +33,7 @@
   "keywords": [],
   "license": "MIT",
   "devDependencies": {
-    "@microsoft/api-extractor": "7.29.0",
+    "@microsoft/api-extractor": "7.29.2",
     "@rollup/plugin-alias": "^3.1.9",
     "@rollup/plugin-commonjs": "^21.1.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
@@ -49,10 +49,10 @@
     "lint-staged": "^13.0.3",
     "pascalcase": "^1.0.0",
     "prettier": "^2.7.1",
-    "rollup": "^2.77.2",
+    "rollup": "^2.78.0",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.32.1",
-    "size-limit": "^8.0.0",
+    "size-limit": "^8.0.1",
     "typescript": "^4.7.4",
     "vue": "^3.2.37",
     "yorkie": "^2.0.0"
