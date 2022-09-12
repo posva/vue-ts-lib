@@ -35,7 +35,7 @@
   "devDependencies": {
     "@microsoft/api-extractor": "7.29.3",
     "@rollup/plugin-alias": "^3.1.9",
-    "@rollup/plugin-commonjs": "^21.1.0",
+    "@rollup/plugin-commonjs": "^22.0.2",
     "@rollup/plugin-node-resolve": "^14.1.0",
     "@rollup/plugin-replace": "^4.0.0",
     "@size-limit/preset-small-lib": "^6.0.4",
