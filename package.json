@@ -41,7 +41,7 @@
     "@size-limit/preset-small-lib": "^6.0.4",
     "@sucrase/jest-plugin": "^2.2.1",
     "@types/jest": "^26.0.24",
-    "@types/jsdom": "^16.2.15",
+    "@types/jsdom": "^20.0.1",
     "@vue/test-utils": "^2.2.2",
     "codecov": "^3.8.3",
     "conventional-changelog-cli": "^2.2.2",
