@@ -36,7 +36,7 @@
     "@microsoft/api-extractor": "7.33.6",
     "@rollup/plugin-alias": "^5.1.0",
     "@rollup/plugin-commonjs": "^28.0.3",
-    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-node-resolve": "^16.0.1",
     "@rollup/plugin-replace": "^5.0.5",
     "@size-limit/preset-small-lib": "^6.0.4",
     "@sucrase/jest-plugin": "^2.2.1",
