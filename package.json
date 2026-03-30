@@ -34,7 +34,7 @@
   "license": "MIT",
   "devDependencies": {
     "@microsoft/api-extractor": "7.33.6",
-    "@rollup/plugin-alias": "^5.1.0",
+    "@rollup/plugin-alias": "^6.0.0",
     "@rollup/plugin-commonjs": "^29.0.0",
     "@rollup/plugin-node-resolve": "^16.0.1",
     "@rollup/plugin-replace": "^6.0.2",
